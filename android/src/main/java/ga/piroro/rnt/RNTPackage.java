@@ -18,7 +18,6 @@ public class RNTPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.emptyList();
     }
